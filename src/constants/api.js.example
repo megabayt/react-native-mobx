@@ -1,0 +1,9 @@
+export default {
+  API_URL: 'https://mobile.mysite.ru',
+  STATIC_URL: 'https://mobile.mysite.ru/images',
+  DEFAULT_ERR: 'Непредвиденная ошибка',
+  NO_INTERNET_ERR: 'Отсутствует подключение к сети Интернет',
+  UNAUTHORIZED_ERR: 'Invalid Token',
+  SENDCODE_DELAY: 2 * 60,
+  TIMEOUT: 1 * 60 * 1000,
+};

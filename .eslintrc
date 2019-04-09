@@ -1,0 +1,39 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb-base"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalDecorators": true
+    }
+  },
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "rules": {
+    "arrow-body-style": "warn",
+    "no-console": "warn",
+    "func-names": "warn",
+    "no-param-reassign": "off",
+    "react/react-in-jsx-scope": "warn",
+    "no-underscore-dangle": "off",
+    "global-require": "warn",
+    "react/prop-types": "warn",
+    "react/jsx-first-prop-new-line": "warn",
+    "guard-for-in": "off",
+    "no-restricted-syntax": ["error", "WithStatement"],
+    "react/forbid-prop-types": "off",
+    "import/no-extraneous-dependencies": "off",
+    "max-len": [1, 180, 4],
+    "no-use-before-define": "off",
+    "no-return-await": "off",
+    "class-methods-use-this": "off",
+    "camelcase": "off"
+  }
+}
